@@ -33,6 +33,8 @@ release = '1.0.0'
 extensions = [
 ]
 
+master_doc = 'index'
+
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
 
@@ -47,8 +49,6 @@ language = 'de'
 # directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path.
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
-
- master_doc = 'contents'
 
 # -- Options for HTML output -------------------------------------------------
 
